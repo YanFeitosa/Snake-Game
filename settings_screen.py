@@ -11,7 +11,7 @@ class SettingsScreen:
         self.selected_length = 1  # Index of the selected snake length option
 
         # Lists of options for each category
-        self.grid_options = ["10x10", "14x14", "20x20"]
+        self.grid_options = ["10x10", "12x12", "20x20"]
         self.speed_options = ["1", "1.5", "2"]
         self.length_options = ["1", "3", "5"]
 
@@ -83,11 +83,11 @@ class SettingsScreen:
     def update(self):
         # Update game parameters based on selected options
         if self.selected_grid == 0:
-            self.game.cell_size = 70
+            self.game.cell_size = 60
         elif self.selected_grid == 1:
             self.game.cell_size = 50
         elif self.selected_grid == 2:
-            self.game.cell_size = 35 
+            self.game.cell_size = 30 
 
         if self.selected_speed == 0:
             self.game.ingame_fps = 10

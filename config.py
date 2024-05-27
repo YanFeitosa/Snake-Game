@@ -2,8 +2,8 @@ import pygame
 import sys
 
 # Screen dimensions
-SCREEN_WIDTH = 700
-SCREEN_HEIGHT = 800
+SCREEN_WIDTH = 600
+SCREEN_HEIGHT = 700
 
 # Game title
 TITLE = "Snake"
